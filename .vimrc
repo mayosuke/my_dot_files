@@ -16,16 +16,6 @@ set wrapscan "検索時に最後まで行ったら最初に戻る
 "新しい行のインデントを現在行と同じにする
 set autoindent 
 
-"バックアップファイルのディレクトリを指定する
-set backupdir=$HOME/vimbackup
-"
-""クリップボードをWindowsと連携する
-set clipboard=unnamed
-
-"vi互換をオフする
-""スワップファイル用のディレクトリを指定する
-set directory=$HOME/vimbackup
-
 "タブの代わりに空白文字を指定する
 set expandtab
 "
@@ -44,9 +34,6 @@ set showmatch
 ""新しい行を作った時に高度な自動インデントを行う
 set smarttab
 
-" grep検索を設定する
-set grepformat=%f:%l:%m,%f:%l%m,%f\ \ %l%m,%f
-set grepprg=grep\ -nh
 "
 " " 検索結果のハイライトをEsc連打でクリアする
 nnoremap <ESC><ESC> :nohlsearch<CR>
