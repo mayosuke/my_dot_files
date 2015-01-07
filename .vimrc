@@ -34,6 +34,7 @@ set showmatch
 ""新しい行を作った時に高度な自動インデントを行う
 set smarttab
 
-"
+set hlsearch
+
 " " 検索結果のハイライトをEsc連打でクリアする
 nnoremap <ESC><ESC> :nohlsearch<CR>
