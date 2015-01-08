@@ -41,5 +41,9 @@ setopt EXTENDED_GLOB
 #bashcompinit
 #source ~/.git-completion.sh
 
-autoload colors
-colors
+#autoload colors
+#colors
+
+PROMPT='[%n@%M]# '
+RPROMPT='[%d]'
+
