@@ -47,3 +47,5 @@ setopt EXTENDED_GLOB
 PROMPT='[%n@%M]# '
 RPROMPT='[%d]'
 
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
