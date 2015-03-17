@@ -49,3 +49,5 @@ RPROMPT='[%d]'
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+export PATH="$PATH:/Applications/android-sdk/sdk/platform-tools"
