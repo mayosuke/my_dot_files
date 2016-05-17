@@ -1,4 +1,4 @@
-# Referenced:
+
 # http://d.hatena.ne.jp/ama-ch/20090109/1231526834
 # http://news.mynavi.jp/column/osx/054/
 
@@ -47,7 +47,8 @@ setopt EXTENDED_GLOB
 PROMPT='[%n@%M]# '
 RPROMPT='[%d]'
 
-export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.rbenv/shims:$PATH"
 eval "$(rbenv init -)"
 
 export PATH="$PATH:/Applications/android-sdk/sdk/platform-tools"
+export PATH="$PATH:/Users/mayosuke/Library/Android/sdk/platform-tools"
